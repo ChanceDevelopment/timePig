@@ -471,7 +471,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA8DA95F1D5A171A00487BF4 /* sishi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sishi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8DA95F1D5A171A00487BF4 /* 时光猪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时光猪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8DA9631D5A171A00487BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA8DA9651D5A171A00487BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8DA9661D5A171A00487BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1390,7 +1390,7 @@
 		EA8DA9601D5A171A00487BF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA8DA95F1D5A171A00487BF4 /* sishi.app */,
+				EA8DA95F1D5A171A00487BF4 /* 时光猪.app */,
 				EA8DA9781D5A171A00487BF4 /* sishiTests.xctest */,
 				EA8DA9831D5A171A00487BF4 /* sishiUITests.xctest */,
 			);
@@ -3122,7 +3122,7 @@
 			);
 			name = sishi;
 			productName = sishi;
-			productReference = EA8DA95F1D5A171A00487BF4 /* sishi.app */;
+			productReference = EA8DA95F1D5A171A00487BF4 /* 时光猪.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA8DA9771D5A171A00487BF4 /* sishiTests */ = {
@@ -3173,6 +3173,8 @@
 				TargetAttributes = {
 					EA8DA95E1D5A171A00487BF4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E6CUH72B23;
+						ProvisioningStyle = Manual;
 					};
 					EA8DA9771D5A171A00487BF4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -3725,7 +3727,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -3763,7 +3765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -3774,6 +3776,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6CUH72B23;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3787,7 +3790,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/sishi/sishi-Prefix.pch";
 				INFOPLIST_FILE = sishi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3796,8 +3799,10 @@
 					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.channce.sishi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.timePig;
+				PRODUCT_NAME = "时光猪";
+				PROVISIONING_PROFILE = "50306562-02aa-4e8c-830b-35778533ac45";
+				PROVISIONING_PROFILE_SPECIFIER = 20161214_timePig_Development;
 			};
 			name = Debug;
 		};
@@ -3805,6 +3810,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = E6CUH72B23;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3818,7 +3825,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/sishi/sishi-Prefix.pch";
 				INFOPLIST_FILE = sishi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3827,8 +3834,10 @@
 					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.channce.sishi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.timePig;
+				PRODUCT_NAME = "时光猪";
+				PROVISIONING_PROFILE = "961db04e-a9b5-4a3e-b9c1-27176bd3de73";
+				PROVISIONING_PROFILE_SPECIFIER = 20161214_timePig_Release;
 			};
 			name = Release;
 		};
@@ -3878,6 +3887,102 @@
 			};
 			name = Release;
 		};
+		EAA4F2F21E01136700EF9E14 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		EAA4F2F31E01136700EF9E14 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = E6CUH72B23;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Custom/DFCommon/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/Optional",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/Required",
+					"$(PROJECT_DIR)/ThirdPartySDK/umsdk_IOS_analyics_no-idfa_v4.0.5",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sishi/sishi-Prefix.pch";
+				INFOPLIST_FILE = sishi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdPartySDK/JPush-iOS-SDK-2.1.7/lib",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/ThirdPartySDK/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.timePig;
+				PRODUCT_NAME = "时光猪";
+				PROVISIONING_PROFILE = "ed0c171d-a4f5-46b1-b718-c01d9a4442da";
+				PROVISIONING_PROFILE_SPECIFIER = 20161214_timePig_Distribution;
+			};
+			name = Distribution;
+		};
+		EAA4F2F41E01136700EF9E14 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sishiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.sishiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sishi.app/sishi";
+			};
+			name = Distribution;
+		};
+		EAA4F2F51E01136700EF9E14 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sishiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.sishiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sishi;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3886,6 +3991,7 @@
 			buildConfigurations = (
 				EA8DA98A1D5A171A00487BF4 /* Debug */,
 				EA8DA98B1D5A171A00487BF4 /* Release */,
+				EAA4F2F21E01136700EF9E14 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3895,6 +4001,7 @@
 			buildConfigurations = (
 				EA8DA98D1D5A171A00487BF4 /* Debug */,
 				EA8DA98E1D5A171A00487BF4 /* Release */,
+				EAA4F2F31E01136700EF9E14 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3904,6 +4011,7 @@
 			buildConfigurations = (
 				EA8DA9901D5A171A00487BF4 /* Debug */,
 				EA8DA9911D5A171A00487BF4 /* Release */,
+				EAA4F2F41E01136700EF9E14 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3913,6 +4021,7 @@
 			buildConfigurations = (
 				EA8DA9931D5A171A00487BF4 /* Debug */,
 				EA8DA9941D5A171A00487BF4 /* Release */,
+				EAA4F2F51E01136700EF9E14 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
