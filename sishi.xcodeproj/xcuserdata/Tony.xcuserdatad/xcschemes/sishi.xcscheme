@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA8DA95E1D5A171A00487BF4"
-               BuildableName = "sishi.app"
+               BuildableName = "&#x65f6;&#x5149;&#x732a;.app"
                BlueprintName = "sishi"
                ReferencedContainer = "container:sishi.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA8DA95E1D5A171A00487BF4"
-            BuildableName = "sishi.app"
+            BuildableName = "&#x65f6;&#x5149;&#x732a;.app"
             BlueprintName = "sishi"
             ReferencedContainer = "container:sishi.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA8DA95E1D5A171A00487BF4"
-            BuildableName = "sishi.app"
+            BuildableName = "&#x65f6;&#x5149;&#x732a;.app"
             BlueprintName = "sishi"
             ReferencedContainer = "container:sishi.xcodeproj">
          </BuildableReference>
@@ -105,7 +105,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA8DA95E1D5A171A00487BF4"
-            BuildableName = "sishi.app"
+            BuildableName = "&#x65f6;&#x5149;&#x732a;.app"
             BlueprintName = "sishi"
             ReferencedContainer = "container:sishi.xcodeproj">
          </BuildableReference>

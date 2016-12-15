@@ -448,6 +448,10 @@
 		EA8DAED51D5A190100487BF4 /* loading_anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8DAED11D5A190100487BF4 /* loading_anim1.png */; };
 		EA8DAED61D5A190100487BF4 /* loading_anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8DAED21D5A190100487BF4 /* loading_anim2.png */; };
 		EA8DAED71D5A190100487BF4 /* Waiting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8DAED41D5A190100487BF4 /* Waiting.m */; };
+		EAA4F32D1E02309300EF9E14 /* HeLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4F32B1E02309300EF9E14 /* HeLoginVC.m */; };
+		EAA4F32E1E02309300EF9E14 /* HeLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4F32C1E02309300EF9E14 /* HeLoginVC.xib */; };
+		EAA4F3321E0230AC00EF9E14 /* HeEnrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4F3301E0230AC00EF9E14 /* HeEnrollVC.m */; };
+		EAA4F3331E0230AC00EF9E14 /* HeEnrollVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4F3311E0230AC00EF9E14 /* HeEnrollVC.xib */; };
 		EADF852A1D620EE30029DC4F /* HeBaseIconTitleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF85261D620EE30029DC4F /* HeBaseIconTitleTableCell.m */; };
 		EADF852B1D620EE30029DC4F /* HeBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF85281D620EE30029DC4F /* HeBaseTableViewCell.m */; };
 		EADF852C1D620EE30029DC4F /* HeBaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADF85291D620EE30029DC4F /* HeBaseTableViewCell.xib */; };
@@ -1298,6 +1302,12 @@
 		EA8DAEDB1D5A19A300487BF4 /* appAPIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appAPIDefine.h; sourceTree = "<group>"; };
 		EA8DAEDC1D5A19C400487BF4 /* sishiDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sishiDefine.h; sourceTree = "<group>"; };
 		EA8DAEDD1D5A19F400487BF4 /* sishi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sishi-Prefix.pch"; sourceTree = "<group>"; };
+		EAA4F32A1E02309300EF9E14 /* HeLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeLoginVC.h; sourceTree = "<group>"; };
+		EAA4F32B1E02309300EF9E14 /* HeLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeLoginVC.m; sourceTree = "<group>"; };
+		EAA4F32C1E02309300EF9E14 /* HeLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeLoginVC.xib; sourceTree = "<group>"; };
+		EAA4F32F1E0230AC00EF9E14 /* HeEnrollVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeEnrollVC.h; sourceTree = "<group>"; };
+		EAA4F3301E0230AC00EF9E14 /* HeEnrollVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeEnrollVC.m; sourceTree = "<group>"; };
+		EAA4F3311E0230AC00EF9E14 /* HeEnrollVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeEnrollVC.xib; sourceTree = "<group>"; };
 		EADF85251D620EE30029DC4F /* HeBaseIconTitleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeBaseIconTitleTableCell.h; sourceTree = "<group>"; };
 		EADF85261D620EE30029DC4F /* HeBaseIconTitleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeBaseIconTitleTableCell.m; sourceTree = "<group>"; };
 		EADF85271D620EE30029DC4F /* HeBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeBaseTableViewCell.h; sourceTree = "<group>"; };
@@ -1505,6 +1515,7 @@
 		EA8DA9E61D5A18C700487BF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EAA4F3291E02302E00EF9E14 /* LoginEnroll */,
 				EA8DA9E71D5A18C700487BF4 /* Base */,
 				EA8DA9ED1D5A18C700487BF4 /* HeTabBarVC.h */,
 				EA8DA9EE1D5A18C700487BF4 /* HeTabBarVC.m */,
@@ -3093,6 +3104,19 @@
 			path = loading_anim_Resource;
 			sourceTree = "<group>";
 		};
+		EAA4F3291E02302E00EF9E14 /* LoginEnroll */ = {
+			isa = PBXGroup;
+			children = (
+				EAA4F32A1E02309300EF9E14 /* HeLoginVC.h */,
+				EAA4F32B1E02309300EF9E14 /* HeLoginVC.m */,
+				EAA4F32C1E02309300EF9E14 /* HeLoginVC.xib */,
+				EAA4F32F1E0230AC00EF9E14 /* HeEnrollVC.h */,
+				EAA4F3301E0230AC00EF9E14 /* HeEnrollVC.m */,
+				EAA4F3311E0230AC00EF9E14 /* HeEnrollVC.xib */,
+			);
+			path = LoginEnroll;
+			sourceTree = "<group>";
+		};
 		EADF85241D620EE30029DC4F /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -3219,6 +3243,7 @@
 				EA8DA9F91D5A18C700487BF4 /* HeBaseViewController.xib in Resources */,
 				EA8DAD921D5A18D000487BF4 /* arrow_down1.png in Resources */,
 				EA8DAE2A1D5A18D000487BF4 /* TZImagePickerController.bundle in Resources */,
+				EAA4F3331E0230AC00EF9E14 /* HeEnrollVC.xib in Resources */,
 				EA8DAED61D5A190100487BF4 /* loading_anim2.png in Resources */,
 				EA8DAD531D5A18D000487BF4 /* IQActionSheetPickerView.xib in Resources */,
 				EA8DAD421D5A18D000487BF4 /* blueArrow.png in Resources */,
@@ -3242,6 +3267,7 @@
 				EA8DA96F1D5A171A00487BF4 /* Assets.xcassets in Resources */,
 				EA8DAE3F1D5A18D000487BF4 /* LICENSE in Resources */,
 				EA8DA9FB1D5A18C700487BF4 /* HeTabBarVC.xib in Resources */,
+				EAA4F32E1E02309300EF9E14 /* HeLoginVC.xib in Resources */,
 				EA8DAD371D5A18D000487BF4 /* down_dark.png in Resources */,
 				EA8DAEC31D5A18F200487BF4 /* README.txt in Resources */,
 				EA8DAD631D5A18D000487BF4 /* MBProgressHUD.bundle in Resources */,
@@ -3323,6 +3349,7 @@
 				EA8DADC61D5A18D000487BF4 /* RACEagerSequence.m in Sources */,
 				EA8DAEB81D5A18F200487BF4 /* rscode.c in Sources */,
 				EA8DA9FA1D5A18C700487BF4 /* HeTabBarVC.m in Sources */,
+				EAA4F3321E0230AC00EF9E14 /* HeEnrollVC.m in Sources */,
 				EA8DAD121D5A18D000487BF4 /* DFSectionIndexTabelViewController.m in Sources */,
 				EA8DAE151D5A18D000487BF4 /* SRRefreshView.m in Sources */,
 				EA8DAE2B1D5A18D000487BF4 /* TZImagePickerController.m in Sources */,
@@ -3453,6 +3480,7 @@
 				EA8DA9FC1D5A18C700487BF4 /* RDVTabBar.m in Sources */,
 				EA8DAE381D5A18D000487BF4 /* UUDatePicker_DateModel.m in Sources */,
 				EA8DADAC1D5A18D000487BF4 /* NSNotificationCenter+RACSupport.m in Sources */,
+				EAA4F32D1E02309300EF9E14 /* HeLoginVC.m in Sources */,
 				EA8DAE351D5A18D000487BF4 /* UIButton+Bootstrap.m in Sources */,
 				EA8DAE121D5A18D000487BF4 /* UIView+WebCacheOperation.m in Sources */,
 				EA8DADD51D5A18D000487BF4 /* RACReplaySubject.m in Sources */,
